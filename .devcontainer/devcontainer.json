@@ -12,10 +12,12 @@
   "portsAttributes": {
     "8080": {
       "label": "PHP application",
+      "protocol": "http",
       "onAutoForward": "openPreview"
     },
     "8081": {
       "label": "phpMyAdmin",
+      "protocol": "http",
       "onAutoForward": "ignore"
     }
   },
