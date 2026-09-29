@@ -1,0 +1,7 @@
+services:
+  php:
+    environment:
+      APP_ENV: development
+      XDEBUG_MODE: "debug,develop"
+      XDEBUG_CONFIG: "client_host=127.0.0.1 client_port=9003"
+      PHP_IDE_CONFIG: "serverName=codespaces"
