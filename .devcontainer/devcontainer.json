@@ -23,7 +23,6 @@
     "vscode": {
       "extensions": [
         "bmewburn.vscode-intelephense-client",
-        "devsense.phptools-vscode",
         "mtxr.sqltools",
         "mtxr.sqltools-driver-mysql",
         "oracle.mysql-shell-for-vs-code"
