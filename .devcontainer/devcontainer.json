@@ -12,19 +12,21 @@
   "portsAttributes": {
     "8080": {
       "label": "PHP application",
-      "onAutoForward": "openBrowserOnce"
+      "onAutoForward": "openPreview"
     },
     "8081": {
       "label": "phpMyAdmin",
-      "onAutoForward": "notify"
+      "onAutoForward": "ignore"
     }
   },
   "customizations": {
     "vscode": {
       "extensions": [
         "bmewburn.vscode-intelephense-client",
+        "devsense.phptools-vscode",
         "mtxr.sqltools",
-        "mtxr.sqltools-driver-mysql"
+        "mtxr.sqltools-driver-mysql",
+        "oracle.mysql-shell-for-vs-code"
       ]
     }
   }
